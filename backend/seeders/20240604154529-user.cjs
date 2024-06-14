@@ -1,4 +1,6 @@
 'use strict';
+const bcrypt = require('bcrypt');
+
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
@@ -15,7 +17,7 @@ module.exports = {
     return queryInterface.bulkInsert('users', [
       {
         username: 'admin',
-        password: '$2a$10$3gmbYreq9XZ.B5bUJg3TjOdu58pKhb9r2j51kpVANt5BGlUV.WowS',
+        password:  bcrypt.hashSync('password', 20),
         role: 'admin',
         created_at: new Date(),
         updated_at: new Date(),
