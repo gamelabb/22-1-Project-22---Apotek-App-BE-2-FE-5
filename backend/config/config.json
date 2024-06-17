@@ -3,7 +3,7 @@
     "username": "mPUQfTGUQuD3xEAR",
     "password": "hdFHWxWh2bGKuQ1o",
     "database": "nbHx4JYN1DYEgWFw",
-    "host": "	educalab.id",
+    "host": "educalab.id",
     "port": 3307,
     "dialect": "mysql"
   },
@@ -17,8 +17,8 @@
   "username": "mPUQfTGUQuD3xEAR",
     "password": "hdFHWxWh2bGKuQ1o",
     "database": "nbHx4JYN1DYEgWFw",
-    "host": "	educalab.id",
+    "host": "educalab.id",
     "port": 3307,
     "dialect": "mysql"
   }
-}
+
