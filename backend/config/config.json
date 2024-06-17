@@ -14,6 +14,7 @@
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
+  "production": {
   "username": "mPUQfTGUQuD3xEAR",
     "password": "hdFHWxWh2bGKuQ1o",
     "database": "nbHx4JYN1DYEgWFw",
@@ -21,4 +22,5 @@
     "port": 3307,
     "dialect": "mysql"
   }
+}
 
